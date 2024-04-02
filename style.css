@@ -1,0 +1,131 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffd1d1;
+    text-align: center;
+
+}
+
+#txt{
+  opacity:0%;
+}
+
+#header {
+  display: flex;
+  justify-content: space-evenly;
+    background-color: #f0f0f0;
+    background-image: url("https://content.wepik.com/statics/6477834/preview-page0.jpg");
+    padding: 10px;
+    text-align:center;
+}
+
+#footer{
+  margin-bottom: 5px;
+  margin-top: 20px;
+  background-color: #ee63a6; /* Facebook blue */
+  background-image: url("https://content.wepik.com/statics/6477834/preview-page0.jpg");
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+#content {
+    width: 60%;
+    margin: 20px auto;
+    background-color: #fddddd;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #e0218a;
+    margin-right:70px;
+}
+
+#contentfriends{
+  width: 90%;
+  margin: 20px auto;
+  background-color: #fddddd;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #e0218a;
+}
+
+#contentjobs{
+  width: 97%;
+  margin: 20px auto;
+  background-color: #fddddd;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #e0218a;
+}
+
+.profile-container {
+  float: left;
+  max-width: 20%;
+  margin: 0 auto;
+  background-color: #fddddd;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-left: 70px;
+  box-shadow: 0px 0px 5px #e0218a;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.profile-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.profile-description {
+  font-size: 14px;
+  color: #666;
+}
+
+.container {
+    width: 100%;
+    display: flex; /* Use flexbox for layout */
+}
+
+.div {
+    flex: 1; /* Make all divs take equal space within the container */
+    padding: 10px;
+    border: 1px solid #e0218a;
+    margin: 10px;
+}
+
+
+
+hr{
+  border: 1px solid #e0218a;
+}
+
+.div img{
+  height: 150px;
+  object-fit: cover;
+}
+
+.nickname{
+  color: black;
+}
+
+#header a{
+  text-decoration: none;
+  color:#e0218a;
+}
+
+img.pic{
+  height: 150px;
+  object-fit: cover;
+  border-radius: 100%;
+}
